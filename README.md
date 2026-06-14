@@ -1,7 +1,4 @@
-# Notas
-
----
-
-# CCNA
-
-Contiene información del curso de CCNAv2
+# 1. CCNA
+```bash
+Contiene información del curso CCNAv2
+```
