@@ -1,0 +1,1 @@
+This was the first chapter and it was about what we were going to learn and this curse.

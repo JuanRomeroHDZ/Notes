@@ -1,0 +1,2 @@
+
+La convergencia en redes es la integración de voz, vídeo y datos en una única infraestructura IP unificada, eliminando la necesidad de redes separadas. Esta tecnología optimiza recursos, reduce costos de mantenimiento, mejora el rendimiento y facilita la escalabilidad, permitiendo servicios como VoIP, videoconferencia e Internet de las Cosas (IoT).
