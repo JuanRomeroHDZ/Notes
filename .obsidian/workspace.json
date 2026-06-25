@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guide.md",
+                "file": "HackTheBox/0.2. Penetration Testing Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guide"
+              "title": "0.2. Penetration Testing Overview"
             }
           }
         ]
@@ -105,11 +105,20 @@
   },
   "active": "70f23a5be2728374",
   "lastOpenFiles": [
-    "HackTheBox/0.2. Penetration Testing Overview.md",
+    "Books/Cisco/CCNA 200-301 Official Cert Guide, 2nd Edition, Volume 1.epub",
+    "Books/Cisco/CCNA 200-301 Official Cert Guide Volume 2, Second Edition.epub",
     "Guide.md",
+    "Books/PMBOK guide 8TH Spanish.pdf",
+    "Books/Cisco",
+    "Books/Marcos de trabajo/iTIL Foundation 5.pdf",
+    "Books/Marcos de trabajo/NIST.CSWP.29.spa.pdf",
+    "Books/Marcos de trabajo/KPIs útiles Diseña Indicadores operativos que realmente sirvan para mejorar by Roberto Corral (z-lib.org)-1.pdf",
+    "Books/Marcos de trabajo/CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
+    "Books/Marcos de trabajo",
+    "Books/Stories/07 - The ocean at the end of the lane - Neil gaiman.epub",
+    "HackTheBox/0.2. Penetration Testing Overview.md",
     "Excalidraw/Drawing 2026-06-24 21.47.34.excalidraw.md",
     "Excalidraw/Drawing 2026-06-24 21.46.52.excalidraw.md",
-    "Excalidraw",
     "HackTheBox/0.1. - Academy Modules Layout.md",
     "Cisco enterprise Networking/04 - OSPF/ospf.md",
     "Cisco enterprise Networking/04 - OSPF/ip ospf.md",
@@ -122,12 +131,9 @@
     "HackTheBox/0.0. - Introduction To The Penetration Tester Path.md",
     "HackTheBox/Images/Pasted image 20260622102446.png",
     "HackTheBox/Images/Pasted image 20260622115239.png",
-    "HackTheBox/Images",
     "Cisco enterprise Networking/01 - ACL/Sintaxis de ACL estandar y extendida IPv4.md",
     "THM/Comandos - Heramientas.md",
-    "HackTheBox",
     "01 - Proceso de estudio.md",
-    "THM",
     "Cisco enterprise Networking/09 - Network Troubleshooting/12.5.1. Components Of Troubleshooting End-To-End Connectivity.md",
     "Ejercicio prof vejar.md",
     "Cisco enterprise Networking/09 - Network Troubleshooting/Images/Pasted image 20260617082543.png",
@@ -143,7 +149,6 @@
     "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.2. Data Link Layer Troubleshooting.md",
     "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.1. Physical Layer Troubleshooting.md",
     "Cisco enterprise Networking/09 - Network Troubleshooting/12.4. Symptoms And Causes Of Network Problems.md",
-    "Cisco enterprise Networking/09 - Network Troubleshooting/12.3.4. Syslog Server As A Troubleshooting Tool.md",
-    "Cisco enterprise Networking/09 - Network Troubleshooting/12.3. Troubleshooting Tools.md"
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.3.4. Syslog Server As A Troubleshooting Tool.md"
   ]
 }
