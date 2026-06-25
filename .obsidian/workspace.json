@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "7b989ff75a9bc6ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "45bb8b9afd839a10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70f23a5be2728374",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Guide"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c8a0a361490ad0d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e89e22e86bda457",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72582984a4bf7805",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "15f5f11fc8b1801a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "ffe616034f05880f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 294.5
+  },
+  "right": {
+    "id": "0532028f76764542",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open this week": false
+    }
+  },
+  "active": "70f23a5be2728374",
+  "lastOpenFiles": [
+    "HackTheBox/0.2. Penetration Testing Overview.md",
+    "Guide.md",
+    "Excalidraw/Drawing 2026-06-24 21.47.34.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-24 21.46.52.excalidraw.md",
+    "Excalidraw",
+    "HackTheBox/0.1. - Academy Modules Layout.md",
+    "Cisco enterprise Networking/04 - OSPF/ospf.md",
+    "Cisco enterprise Networking/04 - OSPF/ip ospf.md",
+    "Cisco enterprise Networking/08 - Network Design/Images/Pasted image 20260302225403.png.md",
+    "Cisco enterprise Networking/04 - OSPF/Intervalos de paquete hello.md",
+    "Cisco Packet Tracer - Assessment.md",
+    "HackTheBox/Images/Pasted image 20260622124956.png",
+    "HackTheBox/Images/Pasted image 20260622120721.png",
+    "HackTheBox/Images/Pasted image 20260622120657.png",
+    "HackTheBox/0.0. - Introduction To The Penetration Tester Path.md",
+    "HackTheBox/Images/Pasted image 20260622102446.png",
+    "HackTheBox/Images/Pasted image 20260622115239.png",
+    "HackTheBox/Images",
+    "Cisco enterprise Networking/01 - ACL/Sintaxis de ACL estandar y extendida IPv4.md",
+    "THM/Comandos - Heramientas.md",
+    "HackTheBox",
+    "01 - Proceso de estudio.md",
+    "THM",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.5.1. Components Of Troubleshooting End-To-End Connectivity.md",
+    "Ejercicio prof vejar.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/Images/Pasted image 20260617082543.png",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/Images/Pasted image 20260617080119.png",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/Images/Pasted image 20260617080003.png",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/Images/Pasted image 20260617075407.png",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/Images/Pasted image 20260617075358.png",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.5. Troubleshooting IP Connectivity.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.6. Application Layer Troubleshooting.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.5. Transport Layer Troubleshooting - NAT For IPv4.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.4. Transport Layer Troubleshooting - ACLs.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.3 Network Layer Troubleshooting.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.2. Data Link Layer Troubleshooting.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.1. Physical Layer Troubleshooting.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4. Symptoms And Causes Of Network Problems.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.3.4. Syslog Server As A Troubleshooting Tool.md",
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.3. Troubleshooting Tools.md"
+  ]
+}
