@@ -44,4 +44,7 @@ Considerando que el punto a punto se realiza en esta ocasión por serial, entonc
 Como se puede observar, la red del serial 0/0 tiene 192.168.20.0/30, el router R2 cuenta con la ip 192.168.20.5, por eso es que no lo encuentra, el serial śolo permite un par para la conexión, en esta ocasión se debe cambiar 192.168.20.2 para el router R2
 7. What is a feature of an IPS
 Para que esta sea una respuesta sencilla, debemos comprender que es un IPS, en eta ocasión IPS significa *Intrusion Prevention System*  el cual ayuda a monitorear actividad maliciosa.
-8. 
+8. Which two types of devices are specific to WAN environments and are not found on a LAN? (Choose two.)
+Bradbands y CSU/DSUs son ejemplo de dispositivos WAN, los demás no pueden ser encontrados en WANs y LANs, ya que solo los switches de capa de aceso y distribución son encontrados en LANs
+9. 
+10. 

@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625231435.png"
+                "file": "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment/Images/Pasted image 20260626084942.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20260625231435"
+              "title": "Pasted image 20260626084942"
             }
           }
         ]
@@ -198,9 +198,14 @@
   },
   "active": "72582984a4bf7805",
   "lastOpenFiles": [
+    "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment/Images",
+    "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment/Packet Tracer.md",
+    "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment/Images/Pasted image 20260626084942.png",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/ENSA Practice Final Exam.md",
-    "Cisco enterprise Networking/04 - OSPF/Conceptos Adicionales/Convergencia.md",
+    "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment",
+    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Sin nombre",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625231435.png",
+    "Cisco enterprise Networking/04 - OSPF/Conceptos Adicionales/Convergencia.md",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625230235.png",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625224822.png",
@@ -216,15 +221,12 @@
     "Pasted image 20260625182543.png",
     "Pasted image 20260625182520.png",
     "Pasted image 20260625180757.png",
-    "Pasted image 20260625180411.png",
     "Books/Cisco/CCNA 200-301 Official Cert Guide, 2nd Edition, Volume 1.epub",
     "Guide.md",
     "Books/PMBOK guide 8TH Spanish.pdf",
     "Books/Cisco",
     "Books/Marcos de trabajo/iTIL Foundation 5.pdf",
     "Books/Marcos de trabajo/NIST.CSWP.29.spa.pdf",
-    "Books/Marcos de trabajo/KPIs útiles Diseña Indicadores operativos que realmente sirvan para mejorar by Roberto Corral (z-lib.org)-1.pdf",
-    "Books/Marcos de trabajo/CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
     "Excalidraw/Drawing 2026-06-24 21.47.34.excalidraw.md",
     "HackTheBox/0.1. - Academy Modules Layout.md",
     "Cisco enterprise Networking/04 - OSPF/ospf.md",
@@ -241,8 +243,6 @@
     "Cisco enterprise Networking/09 - Network Troubleshooting/12.5. Troubleshooting IP Connectivity.md",
     "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.6. Application Layer Troubleshooting.md",
     "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.5. Transport Layer Troubleshooting - NAT For IPv4.md",
-    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.4. Transport Layer Troubleshooting - ACLs.md",
-    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.3 Network Layer Troubleshooting.md",
-    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.2. Data Link Layer Troubleshooting.md"
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.4. Transport Layer Troubleshooting - ACLs.md"
   ]
 }
