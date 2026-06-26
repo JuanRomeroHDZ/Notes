@@ -11,14 +11,12 @@
             "id": "7ca7b7d20c35752b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Cisco enterprise Networking/11 - ENSA Practice Final Exam/ENSA Practice Final Exam.md",
-                "mode": "source",
-                "source": false
+                "file": "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625231435.png"
               },
-              "icon": "lucide-file",
-              "title": "ENSA Practice Final Exam"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260625231435"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "0532028f76764542",
@@ -199,14 +196,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7ca7b7d20c35752b",
+  "active": "72582984a4bf7805",
   "lastOpenFiles": [
-    "Cisco enterprise Networking/04 - OSPF/Conceptos Adicionales/Convergencia.md",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/ENSA Practice Final Exam.md",
-    "Pasted image 20260625231435.png",
-    "Pasted image 20260625230235.png",
+    "Cisco enterprise Networking/04 - OSPF/Conceptos Adicionales/Convergencia.md",
+    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625231435.png",
+    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625230235.png",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images",
-    "Pasted image 20260625224822.png",
+    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625224822.png",
     "HackTheBox/0.3. Laws and Regulations.md",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam",
     "HackTheBox/0.2. Penetration Testing Overview.md",
