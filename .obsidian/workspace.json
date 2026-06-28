@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f2c4aa801f64b25",
+        "id": "45bb8b9afd839a10",
         "type": "tabs",
         "children": [
           {
-            "id": "294949e83c6d7493",
+            "id": "70f23a5be2728374",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "HackTheBox/Images/Pasted image 20260627144842.png"
+                "file": "HackTheBox/0.5. Pre-Engagement.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260627144842"
+              "icon": "lucide-file",
+              "title": "0.5. Pre-Engagement"
             }
           }
         ]
@@ -42,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -76,23 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 294.5,
+    "collapsed": true
   },
   "right": {
     "id": "0532028f76764542",
     "type": "split",
     "children": [
       {
-        "id": "b6918a6d4c4f8e46",
+        "id": "461e69ed14b9e887",
         "type": "tabs",
         "children": [
           {
-            "id": "acecc3800a216c7c",
+            "id": "2fe4b1cc70b2ae79",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardening.md",
+                "file": "Books/Cisco/CCNA 200-301 Official Cert Guide Volume 2, Second Edition.epub",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Hardening"
+              "title": "Backlinks for CCNA 200-301 Official Cert Guide Volume 2, Second Edition"
             }
           },
           {
-            "id": "468e692c1fca5a46",
+            "id": "a98b63f015c4286a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardening.md",
+                "file": "Books/Cisco/CCNA 200-301 Official Cert Guide Volume 2, Second Edition.epub",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Hardening"
+              "title": "Outgoing links from CCNA 200-301 Official Cert Guide Volume 2, Second Edition"
             }
           },
           {
-            "id": "76ae3dfffdd48c40",
+            "id": "909f69796c497aee",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,11 +134,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Etiquetas"
+              "title": "Tags"
             }
           },
           {
-            "id": "7a33d650303b9a13",
+            "id": "f4873e37f14b9e0c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -145,26 +148,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Todas las propiedades"
+              "title": "All properties"
             }
           },
           {
-            "id": "0c221d2a6280a29b",
+            "id": "b8516d7b2e51e72f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardening.md",
+                "file": "Books/Cisco/CCNA 200-301 Official Cert Guide Volume 2, Second Edition.epub",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Hardening"
+              "title": "Outline of CCNA 200-301 Official Cert Guide Volume 2, Second Edition"
             }
           },
           {
-            "id": "c4362654b52f365a",
+            "id": "7b3c175c84558ef2",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -182,60 +185,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
+      "password-protection:Lock password protection": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "password-protection:Desactivar protección con contraseña": false,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "72582984a4bf7805",
+  "active": "70f23a5be2728374",
   "lastOpenFiles": [
-    "HackTheBox/0.5. Pre-Engagement.md",
+    "HackTheBox/0.2. Penetration Testing Overview.md",
     "HackTheBox/Images/Pasted image 20260627144842.png",
     "HackTheBox/Images/Pasted image 20260627144837.png",
+    "HackTheBox/0.5. Pre-Engagement.md",
     "HackTheBox/0.4. Penetration Testing Process.md",
-    "Guide.md",
-    "HackTheBox/0.0. Introduction To The Penetration Tester Path.md",
     "HackTheBox/0.3. Laws and Regulations.md",
     "HackTheBox/0.1. Academy Modules Layout.md",
-    "HackTheBox/0.2. Penetration Testing Overview.md",
+    "HackTheBox/0.0. Introduction To The Penetration Tester Path.md",
     "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment/Images/Pasted image 20260626084942.png",
-    "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment/Images",
     "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment/Packet Tracer.md",
-    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/ENSA Practice Final Exam.md",
+    "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment/Images",
     "Cisco enterprise Networking/12 - ENSA Final Packet Tracer Assessment",
-    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Sin nombre",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625231435.png",
-    "Cisco enterprise Networking/04 - OSPF/Conceptos Adicionales/Convergencia.md",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625230235.png",
-    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images/Pasted image 20260625224822.png",
+    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/Images",
+    "Cisco enterprise Networking/11 - ENSA Practice Final Exam/ENSA Practice Final Exam.md",
     "Cisco enterprise Networking/11 - ENSA Practice Final Exam",
-    "Books/Cisco/CCNA 200-301 Official Cert Guide Volume 2, Second Edition.epub",
+    "Excalidraw/Drawing 2026-06-24 21.47.34.excalidraw.md",
     "Excalidraw/Drawing 2026-06-24 21.46.52.excalidraw.md",
-    "Hardening.md",
-    "Pasted image 20260625184201.png",
-    "Pasted image 20260625183740.png",
-    "Pasted image 20260625183211.png",
-    "Pasted image 20260625182543.png",
-    "Books/Cisco/CCNA 200-301 Official Cert Guide, 2nd Edition, Volume 1.epub",
+    "Books/Cisco/CCNA 200-301 Official Cert Guide Volume 2, Second Edition.epub",
     "Books/PMBOK guide 8TH Spanish.pdf",
+    "Books/Cisco/CCNA 200-301 Official Cert Guide, 2nd Edition, Volume 1.epub",
+    "Guide.md",
     "Books/Cisco",
     "Books/Marcos de trabajo/iTIL Foundation 5.pdf",
-    "Excalidraw/Drawing 2026-06-24 21.47.34.excalidraw.md",
+    "Books/Marcos de trabajo/NIST.CSWP.29.spa.pdf",
+    "HackTheBox/0.1. - Academy Modules Layout.md",
     "Cisco enterprise Networking/04 - OSPF/ospf.md",
     "Cisco enterprise Networking/04 - OSPF/ip ospf.md",
     "Cisco enterprise Networking/08 - Network Design/Images/Pasted image 20260302225403.png.md",
     "Cisco enterprise Networking/04 - OSPF/Intervalos de paquete hello.md",
     "Cisco Packet Tracer - Assessment.md",
+    "HackTheBox/Images/Pasted image 20260622124956.png",
+    "HackTheBox/Images/Pasted image 20260622120721.png",
+    "HackTheBox/Images/Pasted image 20260622120657.png",
+    "HackTheBox/0.0. - Introduction To The Penetration Tester Path.md",
+    "HackTheBox/Images/Pasted image 20260622102446.png",
     "Cisco enterprise Networking/01 - ACL/Sintaxis de ACL estandar y extendida IPv4.md",
     "THM/Comandos - Heramientas.md",
     "01 - Proceso de estudio.md",
