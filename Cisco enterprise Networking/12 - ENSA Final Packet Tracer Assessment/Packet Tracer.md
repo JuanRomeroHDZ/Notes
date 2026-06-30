@@ -146,7 +146,7 @@
     Se repetirá el mismo paso que en los routers: hostname [nombre del dispositivo]
 - [x] **b.** Configurar la Interfaz de Administración (SVI) para la VLAN 1: Establecer la dirección IPv4 y activar la interfaz. ✅ 2026-06-26
     Para configurar la interfaz es:
-    interfaz vlan [administrativa] 
+    interfaz vlan [administrativa] `
     luego ingresamos la IP y mascara: 192.168.1.2 255.255.255.0 <-[Ejemplo]
 - [x] **c.** Configurar el gateway por defecto. ✅ 2026-06-26
     Se configura en el modo global con el comando: 
