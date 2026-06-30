@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/0.5. Pre-Engagement.md",
+                "file": "HackTheBox/0.6. Information Gathering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.5. Pre-Engagement"
+              "title": "0.6. Information Gathering"
             }
           }
         ]
@@ -200,10 +200,12 @@
   },
   "active": "70f23a5be2728374",
   "lastOpenFiles": [
+    "Pasted image 20260629203926.png",
+    "HackTheBox/0.5. Pre-Engagement.md",
+    "HackTheBox/0.6. Information Gathering.md",
     "HackTheBox/0.2. Penetration Testing Overview.md",
     "HackTheBox/Images/Pasted image 20260627144842.png",
     "HackTheBox/Images/Pasted image 20260627144837.png",
-    "HackTheBox/0.5. Pre-Engagement.md",
     "HackTheBox/0.4. Penetration Testing Process.md",
     "HackTheBox/0.3. Laws and Regulations.md",
     "HackTheBox/0.1. Academy Modules Layout.md",
@@ -243,7 +245,6 @@
     "01 - Proceso de estudio.md",
     "Cisco enterprise Networking/09 - Network Troubleshooting/12.5.1. Components Of Troubleshooting End-To-End Connectivity.md",
     "Ejercicio prof vejar.md",
-    "Cisco enterprise Networking/09 - Network Troubleshooting/12.5. Troubleshooting IP Connectivity.md",
-    "Cisco enterprise Networking/09 - Network Troubleshooting/12.4.6. Application Layer Troubleshooting.md"
+    "Cisco enterprise Networking/09 - Network Troubleshooting/12.5. Troubleshooting IP Connectivity.md"
   ]
 }
