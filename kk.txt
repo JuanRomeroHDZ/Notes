@@ -1,0 +1,396 @@
+
+Marco Teórico…
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Reutilización de la Cuenta en la Nube
+Para este proyecto, se reutilizó la infraestructura del proveedor IONOS Cloud, aprovechando el entorno de Data Center Designer (DCD).
+
+Verificación de capa gratuita: Se mantuvo activa la cuenta con el crédito promocional inicial, el cual es suficiente para cubrir el aprovisionamiento temporal de la VPC, el balanceador de carga y los nodos requeridos para la prueba de elasticidad.
+
+Monitoreo de costos: Para garantizar que no se exceda el presupuesto al activar la elasticidad (limitada a 2 servidores máximo), se configuró una alerta de costos.
+
+Ruta: Management > Cost & Usage > Cost Alert
+
+2. Análisis de Requerimientos
+Para garantizar el despliegue óptimo del software crítico seleccionado (Dolibarr ERP/CRM) bajo una arquitectura LAMP, se determinaron los siguientes requerimientos técnicos, los cuales dictarán el dimensionamiento de las instancias.
+
+Componente
+Requerimiento Mínimo
+Justificación para Elasticidad
+Sistema Operativo
+MariaDB 11.8+
+Distribución estable, ligera y con soporte nativo de paquetes recientes de PHP 8.4 y MariaDB; permite clonar réplicas idénticas vía snapshot para el Auto Scaling Group.
+Servidor Web
+Apache 2.4+
+Manejo eficiente de peticiones concurrentes; compatible con el módulo mod_status para monitoreo de sesiones.
+Base de Datos
+MariaDB 11.8+
+Se aislará en un servidor independiente para que la capa web pueda escalar horizontalmente sin corromper los datos.
+Lenguaje
+PHP 8.4+
+Requerido por Dolibarr 23.0.3 para un procesamiento óptimo de las peticiones.
+
+
+
+3. Configuración de la Instancia Virtual (Capa Web)
+Se diseñó una plantilla base (Template) para el servidor web. Esta plantilla será la que el servicio de elasticidad clonará cuando la demanda aumente.
+Parámetro de la Instancia
+Valor Seleccionado
+Costo Estimado (Mensual)
+Imagen OS
+Debian 13 (Trixie)
+Incluido / Open Source
+vCores (CPU)
+2
+~$15 - $20 MXN
+Memoria RAM
+2 GB
+~$15 - $20 MXN
+Almacenamiento
+50 GB SSD Standard
+~$10 MXN
+Rol en la Arquitectura
+Nodo Web (Apache + PHP + Dolibarr)
+N/A
+
+
+
+
+Nota Técnica: El almacenamiento se mantuvo en 50 GB (menor a los 90 GB de la práctica anterior) para optimizar costos, ya que los datos pesados y transaccionales vivirán en el servidor de Base de Datos independiente.
+
+4. Configuración del Servicio de Elasticidad (Auto Scaling)
+Dado que se requiere garantizar la alta disponibilidad de la aplicación bajo escenarios de estrés, se implementó un grupo de autoescalado nativo (VM Auto Scaling) apuntando al servidor web.
+
+
+
+
+
+Parámetro de Elasticidad
+Configuración
+Justificación
+Servicio utilizado
+VM Auto Scaling (IONOS Cloud) — servicio en fase Early Access (EA)
+Único mecanismo nativo de IONOS para escalado horizontal de servidores completos
+Nodos de inicio (Minimum Count)
+1 servidor
+Optimización de costos durante tráfico normal
+Límite máximo (Maximum Count / Scale-out)
+2 servidores
+Restricción presupuestal establecida para la práctica
+Criterio de activación (métrica)
+Uso promedio de CPU (INSTANCE CPU UTILIZATION AVERAGE)
+Métrica nativa disponible en IONOS; IONOS no ofrece una métrica nativa de "sesiones concurrentes", por lo que esta se monitorea de forma complementaria vía Apache mod_status
+Umbral de Scale-out
+50%
+Ajustado desde el 70% inicial para garantizar la reacción dentro del tiempo de la prueba en vivo
+Umbral de Scale-in
+10%
+Umbral de Scale-in
+Rango de evaluación (Range)
+2 minutos (PT2M)
+Ventana de tiempo sobre la que se calcula el promedio de CPU antes de decidir un escalado
+Periodo de enfriamiento (Cooldown)
+5 minutos
+Evita oscilaciones de creación/eliminación constante de servidores
+Política de eliminación (Scale-in)
+Réplica más antigua primero (Oldest Server First)
+Criterio estándar para decidir qué servidor eliminar al reducir
+RAM de la réplica
+2 GB
+Ajustada para no exceder el límite de cuenta de GB de RAM total
+
+
+
+
+
+5. Configuración de la Base de Datos (Servidor Independiente)
+Para que la elasticidad funcione, los nodos web deben ser "stateless" (sin estado). Por ello, la base de datos de Dolibarr no puede vivir en los servidores web que se crean y destruyen dinámicamente. Se provisionó un servidor local dedicado exclusivamente a la base de datos dentro de la misma VPC.
+
+Parámetro
+Configuración
+Bind-address
+0.0.0.0
+Motor de Base de Datos
+MariaDB 11.8.6
+Usuario de aplicación
+dolibarr_user@10.7.224.% (acceso ampliado a toda la subred interna)
+Puerto
+3306 (TCP), restringido a la red interna de la VPC
+Base de datos
+dolibarr
+
+
+
+
+Acciones realizadas:
+
+Instalación del servicio: apt update && apt install mariadb-server -y
+
+Inicialización segura: Ejecución de mysql_secure_installation.
+
+El puerto 3306 se configuró para aceptar conexiones únicamente desde las IPs privadas de los nodos web, denegando cualquier acceso desde el exterior.
+
+6. Configuración de Seguridad (VPC y Firewall)
+Se diseñó una arquitectura de red aislada mediante una Virtual Private Cloud (VPC). Todo el tráfico externo es filtrado por un Firewall perimetral gestionado, el cual protege las instancias y actúa como único punto de entrada (Single Point of Contact).
+Se intentó adicionalmente desplegar un Network Load Balancer (NLB) como punto único de entrada formal a la VPC, en sustitución del firewall individual de cada servidor. Sin embargo, dicho servicio no se encontró disponible en el menú de Servicios de Red de la cuenta utilizada (solo se listan Target Groups, VM Auto Scaling, VPN Gateway, Cross Connect, CDN y Cloud DNS). Por esta razón, el punto de control de tráfico externo se mantuvo a nivel del Firewall configurado directamente en la NIC pública del servidor web, cumpliendo el mismo propósito de filtrado de puertos hacia la VPC.
+
+
+
+A. Reglas del Grupo de Seguridad (Firewall Perimetral)
+Se configuraron las siguientes políticas de acceso TCP:
+
+
+Protocolo
+Puerto
+Origen
+Destino
+Propósito
+TCP
+22 (SSH)
+IP Pública del Administrador
+VPC
+Acceso administrativo seguro.
+TCP
+80 (HTTP)
+0.0.0.0/0 (Cualquiera)
+Balanceador / Nodo Web
+Tráfico web sin cifrar (se redirigirá a 443).
+TCP
+443 (HTTPS)
+0.0.0.0/0 (Cualquiera)
+Balanceador / Nodo Web
+Tráfico web cifrado seguro.
+
+
+
+
+
+
+B. Autenticación y Acceso Seguro
+
+Se deshabilitó la autenticación por contraseña en los servidores (PasswordAuthentication no en sshd_config).
+
+Se generaron un par de claves SSH usando el algoritmo criptográfico ED25519, garantizando un acceso remoto blindado a la instancia.
+
+La IP pública adquirida se asignó al nodo fronterizo (Firewall/Balanceador), el cual se encarga de redirigir las solicitudes a los servicios locales mediante NAT.
+
+
+
+
+
+7. Reutilización de Dominio e IP Pública mishtli.duckdns.org
+
+Conforme a lo solicitado en la actividad, se reutilizó el mismo proveedor de dominios gratuitos (DuckDNS) empleado en la práctica anterior, registrando un nuevo subdominio asociado a la dirección IP pública del servidor web desplegado en esta práctica.
+
+Elemento
+Configuración
+Proveedor de DNS
+DuckDNS (gratuito)
+Dominio registrado
+mishtli.duckdns.org
+Tipo de registro
+A
+IP pública asociada
+208.94.39.61
+Servicio de destino
+Servidor web (Apache + Dolibarr)
+
+
+
+
+8. Instalación y Configuración de Software 
+
+Se instaló el software Dolibarr 23.0.3 (ERP/CRM de código abierto) sobre el stack LAMP, descargando el paquete oficial desde el repositorio del proyecto y utilizando el instalador automático incluido en el paquete .deb, el cual configura Apache, crea la base de datos y guía la creación del usuario administrador desde el navegador.
+
+wget -O dolibarr_23.0.3-4_all.deb "https://sourceforge.net/projects/dolibarr/files/Dolibarr%20installer%20for%20Debian-Ubuntu%20%28DoliDeb%29/23.0.3/dolibarr_23.0.3-4_all.deb"
+apt-get install -f
+ln -s /usr/share/dolibarr/htdocs /var/www/html/dolibarr
+chown -R www-data:www-data /usr/share/dolibarr/
+CREATE DATABASE dolibarr;
+CREATE USER 'dolibarr_user'@'localhost' IDENTIFIED BY 'angelo75';
+GRANT ALL PRIVILEGES ON dolibarr.* TO 'dolibarr_user'@'localhost';
+FLUSH PRIVILEGES;
+
+El david es pto
+Parámetro
+Valor
+Software instalado
+Dolibarr ERP/CRM
+Versión
+23.0.3
+Método de instalación
+Paquete .deb oficial (DoliDeb), sin uso de Marketplace
+Ruta de instalación
+/usr/share/dolibarr/htdocs (enlazado a /var/www/html/dolibarr)
+Base de datos creada
+dolibarr
+Usuario de aplicación
+dolibarr_user
+
+
+9. Seguridad: Certificado SSL
+
+Se instaló un certificado SSL gratuito mediante Let's Encrypt utilizando la herramienta Certbot con su plugin de Apache, el cual valida la propiedad del dominio y configura automáticamente el redireccionamiento del tráfico HTTP hacia HTTPS.
+
+certbot --apache -d mishtli.duckdns.org
+
+
+Parámetro
+Valor
+Autoridad certificadora
+Let's Encrypt
+Herramienta utilizada
+Certbot 4.0.0 + plugin python3-certbot-apache
+Dominio protegido
+mishtli.duckdns.org
+Fecha de expiración
+26 de septiembre de 2026
+Renovación
+Automática (tarea programada por Certbot)
+Redirección configurada
+HTTP (80) → HTTPS (443)
+
+
+
+
+
+
+
+
+
+
+10. Generación de Estrés y Comportamiento de la Elasticidad
+
+
+Para forzar la reacción del servicio de VM Auto Scaling se utilizó la herramienta de código abierto stress-ng, instalada directamente en el servidor gestionado por el grupo de Auto Scaling (réplica), generando una carga sostenida de CPU que superó el umbral de activación configurado.
+
+apt update && apt install stress-ng -y
+stress-ng --cpu 4 --cpu-load 100 --timeout 300s
+
+Herramienta
+Uso
+stress-ng (software open source)
+Generación de carga sintética de CPU sobre 4 hilos al 100%, sostenida durante 5 minutos
+
+
+
+
+
+
+
+
+
+
+
+
+Generación de carga de CPU sobre 4 hilos al 100%, sostenida durante 5 minutos
+
+Momento
+Servidores en el grupo
+%CPU observado
+Acción del Auto Scaling
+Inicio de la prueba
+1 servidor (réplica gestionada)
+Bajo (< 10%)
+Sin acción
+Minuto 0-2 (estrés aplicado)
+1 servidor
+En aumento hacia 100%
+En evaluación (ventana de 2 min)
+Minuto ~2-3
+1 servidor
+Promedio > 50% (umbral de scale-out)
+Trabajo de "scale out" lanzado
+Tras evaluación
+Intento de 2do servidor
+
+
+Resultado: éxito parcial, limitado por cuota de RAM de la cuenta (ver sección de errores)
+
+El servicio de Auto Scaling reaccionó correctamente al estrés aplicado, generando trabajos de tipo "scale out" tras superar el umbral configurado dentro de la ventana de evaluación de 2 minutos. Esto confirma que el criterio de activación seleccionado (uso de CPU) funciona como disparador real del escalado en la plataforma. La creación completa del segundo servidor estuvo en ocasiones limitada por la cuota máxima de 20,480 MiB de RAM de la cuenta, lo cual se documenta en la sección de errores comunes.
+
+
+
+11. Documentación del Proceso — Errores Comunes
+
+Durante la implementación se presentaron múltiples errores derivados tanto de inconsistencias en la consola web del proveedor (servicio en fase Early Access) como de configuraciones incorrectas propias. A continuación se documentan los errores más relevantes y las soluciones aplicadas, en orden cronológico.
+
+Error encontrado
+Causa
+Solución aplicada
+Failed to parse request body... volumes[0].type could not be understood
+El dropdown de "Tipo de almacenamiento" no se guardó con un valor explícito
+Se reseleccionó manualmente el tipo de almacenamiento (SSD/HDD) antes de guardar
+nics[].name contains invalid characters
+El nombre de las NICs de la réplica contenía espacios en blanco
+Se renombraron las NICs sin espacios (solo alfanuméricos y . _ ~ -)
+firewallRules[].sourceMac must match...
+El campo "Source MAC" de las reglas de firewall quedó con un valor inválido
+Se eliminó el contenido del campo, dejándolo vacío (opcional)
+firewallRules[].sourceIp must match...
+El campo "Source IP" contenía notación CIDR (0.0.0.0/0), no soportada en este formulario
+Se eliminaron todas las reglas de firewall de las NICs de réplica; el filtrado se mantuvo a nivel del firewall del servidor principal
+Scale-out fallido sin mensaje visible en consola
+Bug de la interfaz web del DCD al ocultar errores de fondo
+Se consultó la API REST de IONOS directamente (api.ionos.com/autoscaling/groups) para obtener el mensaje de error real
+[VDC-5-1025] You cannot apply the current datacenter, since your personal limit of 20,480 MiB RAM would be exhausted
+La suma de RAM de los 3 servidores (8+8+8 GB) excedía el límite de cuenta de 20 GB
+Se redujo la RAM de la plantilla de réplica de 8 GB a 2 GB
+La réplica creada no tenía Apache ni Dolibarr instalados (Unit apache2 could not be found)
+El campo "Clonar configuraciones y volúmenes desde máquina virtual" no quedó realmente seleccionado; la réplica usó una imagen base genérica de Debian
+Se creó un Snapshot manual del servidor web funcional y se asignó explícitamente como imagen del volumen en la Configuración de réplica
+El servicio de Auto Scaling no reaccionaba al estrés generado desde una máquina externa con Apache Bench
+El servidor original (no gestionado) estaba siendo estresado, la réplica monitoreada por el grupo; además Apache en modo prefork limitaba la concurrencia real
+Se aplicó el estrés directamente sobre el servidor gestionado por el Auto Scaling Group usando stress-ng en lugar de tráfico HTTP externo
+El Network Load Balancer no apareció disponible en el menú de Servicios de Red
+El servicio no está habilitado en la cuenta/región utilizada (us/las)
+Se documentó la limitación y se mantuvo el firewall a nivel de NIC del servidor web como punto de control
+
+
+12. Conclusión y Resultados
+
+La implementación de una arquitectura de elasticidad en IONOS Cloud permitió comprender de forma práctica los retos reales de automatizar el escalado horizontal de servidores, más allá de la simple activación de una opción en el panel del proveedor. Se confirmó que el criterio de activación basado en uso de CPU es funcional y reproducible: al generar carga sintética sostenida mediante la herramienta open source stress-ng directamente sobre el servidor gestionado, el servicio de VM Auto Scaling detectó el incremento y lanzó eventos de escalado dentro de la ventana de evaluación configurada (2 minutos).
+El proceso reveló limitaciones tanto de la plataforma (al tratarse de un servicio en fase Early Access, con errores de validación inconsistentes en su consola web) como de la propia cuenta utilizada (cuota máxima de RAM de 20 GB), las cuales fueron diagnosticadas consultando directamente la API REST de IONOS para obtener mensajes de error reales, en lugar de depender únicamente de la interfaz gráfica. Asimismo, se identificó la importancia de separar el almacenamiento de datos persistentes (base de datos) de los servidores web "desechables" que el Auto Scaling crea y destruye dinámicamente, así como la necesidad de garantizar que cualquier réplica nueva nazca completamente funcional mediante el uso de snapshots, en lugar de depender de un mecanismo de clonación de configuración que resultó insuficiente.
+Como aprendizaje principal del equipo, diseñar elasticidad real en la nube exige validar cada componente de forma aislada (red, almacenamiento, base de datos, firewall) antes de esperar que el escalado automático funcione de extremo a extremo, y documentar honestamente las limitaciones encontradas en el proveedor, en lugar de asumir que toda falla es atribuible a un error de configuración propio.
+
+Bibliografía / Referencias
+
+Mell, P., & Grance, T. (2011). The NIST Definition of Cloud Computing. National Institute of Standards and Technology. 
+https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+
+IONOS Cloud. (2026). VM Auto Scaling – Documentation. https://docs.ionos.com/cloud/network-services/vm-auto-scaling
+
+IONOS Cloud. (2026). Data Center Designer (DCD) – Getting Started. https://docs.ionos.com/cloud/getting-started/data-center-designer
+
+Dolibarr Organization Foundation. (2026). Dolibarr ERP/CRM – Official Documentation. https://www.dolibarr.org
+
+The Apache Software Foundation. (2026). Apache HTTP Server Documentation – mod_status. https://httpd.apache.org/docs/2.4/mod/mod_status.html
+
+MariaDB Foundation. (2026). MariaDB Server Documentation. https://mariadb.org/documentation/
+
+Internet Security Research Group. (2026). Let's Encrypt – How It Works. https://letsencrypt.org/how-it-works/
+
+Certbot. (2026). Certbot Documentation for Apache on Debian. https://certbot.eff.org/instructions?os=debianbuster&web=apache
+
+DuckDNS. (2026). DuckDNS – Free Dynamic DNS. https://www.duckdns.org
+Coker, C. (2024). stress-ng – A tool to load and stress a computer system. https://github.com/ColinIanKing/stress-ng
+
+Tanenbaum, A. S., & Bos, H. (2014). Modern Operating Systems (4th ed.). Pearson. (Referencia general para conceptos de virtualización y gestión de recursos)
+
+Buyya, R., Vecchiola, C., & Selvi, S. T. (2013). Mastering Cloud Computing. McGraw-Hill Education. (Referencia general para modelos IaaS, PaaS y SaaS)
+
