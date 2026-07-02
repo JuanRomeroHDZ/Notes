@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guide.md",
+                "file": "Proyecto MIXTLI/Diagrama de la topología de red.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guide"
+              "title": "Diagrama de la topología de red"
             }
           }
         ]
@@ -198,8 +198,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "72582984a4bf7805",
+  "active": "70f23a5be2728374",
   "lastOpenFiles": [
+    "Guide.md",
+    "Proyecto MIXTLI/Diagrama de la topología de red.md",
+    "Proyecto MIXTLI",
     "English",
     "HackTheBox/0.6. Information Gathering.md",
     "HackTheBox/0.5. Pre-Engagement.md",
@@ -226,10 +229,7 @@
     "Books/Cisco/CCNA 200-301 Official Cert Guide Volume 2, Second Edition.epub",
     "Books/PMBOK guide 8TH Spanish.pdf",
     "Books/Cisco/CCNA 200-301 Official Cert Guide, 2nd Edition, Volume 1.epub",
-    "Guide.md",
     "Books/Cisco",
-    "Books/Marcos de trabajo/iTIL Foundation 5.pdf",
-    "Books/Marcos de trabajo/NIST.CSWP.29.spa.pdf",
     "HackTheBox/0.1. - Academy Modules Layout.md",
     "Cisco enterprise Networking/04 - OSPF/ospf.md",
     "Cisco enterprise Networking/04 - OSPF/ip ospf.md",
