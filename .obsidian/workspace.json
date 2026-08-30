@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "7b989ff75a9bc6ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "5827712cf7c17511",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54421ac17dccc588",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics/1.3.1. Theory - Common Terms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1.3.1. Theory - Common Terms"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c8a0a361490ad0d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e89e22e86bda457",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72582984a4bf7805",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "15f5f11fc8b1801a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ffe616034f05880f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0532028f76764542",
+    "type": "split",
+    "children": [
+      {
+        "id": "461e69ed14b9e887",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fe4b1cc70b2ae79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Proyecto MIXTLI/7 - Tabla - S1 & S2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de 7 - Tabla - S1 & S2"
+            }
+          },
+          {
+            "id": "a98b63f015c4286a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Books/Cisco/CCNA 200-301 Official Cert Guide Volume 2, Second Edition.epub",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CCNA 200-301 Official Cert Guide Volume 2, Second Edition"
+            }
+          },
+          {
+            "id": "909f69796c497aee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f4873e37f14b9e0c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b8516d7b2e51e72f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics/1.3.1. Theory - Common Terms.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "54421ac17dccc588",
+  "lastOpenFiles": [
+    "HackTheBox/01 - Getting Started/00. Getting Started.md",
+    "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics/1.3.1. Theory - Common Terms.md",
+    "Blue Team.md",
+    "HackTheBox/00 - Introduction/00.1. Academy Modules Layout.md",
+    "HackTheBox/00 - Introduction/00.0. Introduction To The Penetration Tester Path.md",
+    "HackTheBox/01 - Getting Started/01.1 - Introduction/1.1.1. Theory - Infosec Overview.md",
+    "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.2. Theory - Staying Organized.md",
+    "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.1. Interactive - Getting Started With A Pentest Distro.md",
+    "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics",
+    "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.3. Theory - Connecting Using VPN.md",
+    "HackTheBox/00 - Introduction/00.12. Post-Engagement.md",
+    "HackTheBox/00 - Introduction/00.13. Preparing for Real-World Pentests.md",
+    "HackTheBox/00 - Introduction/00.11. Proof-of-Concept (PoC).md",
+    "HackTheBox/00 - Introduction/00.8. Exploitation.md",
+    "HackTheBox/00 - Introduction/00.5. Pre-Engagement.md",
+    "Templates/Daily.md",
+    "HackTheBox/Images/001 - InfoSec Domains.md",
+    "HackTheBox/Images/Pasted image 20260824172446.png",
+    "Staying Organized.md",
+    "HackTheBox/01 - Getting Started/01.2 - Setup",
+    "HackTheBox/01 - Getting Started/2.md",
+    "HackTheBox/Images/Pasted image 20260622115239.png",
+    "HackTheBox/01. Getting Started.md",
+    "HackTheBox/01 - Getting Started/1.1.1. Theory - Infosec Overview.md",
+    "HackTheBox/01 - Getting Started/01.1 - Introduction",
+    "HackTheBox/00. Getting Started.md",
+    "HackTheBox/01 - Getting Started",
+    "HackTheBox/00 - Introduction/00.7. Vulnerability Assessment.md",
+    "HackTheBox/00 - Introduction/00.10. Lateral Movement.md",
+    "HackTheBox/00 - Introduction/00.9. Post-Exploitation.md",
+    "HackTheBox/00.13. Preparing for Real-World Pentests.md",
+    "HackTheBox/00.12. Post-Engagement.md",
+    "HackTheBox/00 - Introduction",
+    "HackTheBox/00",
+    "HackTheBox/-",
+    "HackTheBox/Introduction",
+    "HackTheBox/1.1 - Introduction",
+    "HackTheBox/Máquinas",
+    "Proyecto MIXTLI/Images/Pasted image 20260702210030.png",
+    "HackTheBox/Images/Pasted image 20260724183212.png",
+    "HackTheBox/Images/Pasted image 20260722141337.png",
+    "Pasted image 20260722141337.png",
+    "HackTheBox/Images/Pasted image 20260721232059.png",
+    "HackTheBox/Images/Pasted image 20260718183519.png",
+    "Pasted image 20260718183519.png",
+    "HackTheBox/Images/Pasted image 20260717195214.png",
+    "Untitled.canvas"
+  ]
+}
