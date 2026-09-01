@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "54421ac17dccc588",
+            "id": "b7c5a50aaa173d04",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,18 +187,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "54421ac17dccc588",
+  "active": "b7c5a50aaa173d04",
   "lastOpenFiles": [
-    "HackTheBox/01 - Getting Started/00. Getting Started.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
     "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics/1.3.1. Theory - Common Terms.md",
-    "Blue Team.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.3. Theory - Connecting Using VPN.md",
+    "HackTheBox/01 - Getting Started/00. Getting Started.md",
     "HackTheBox/00 - Introduction/00.1. Academy Modules Layout.md",
     "HackTheBox/00 - Introduction/00.0. Introduction To The Penetration Tester Path.md",
-    "HackTheBox/01 - Getting Started/01.1 - Introduction/1.1.1. Theory - Infosec Overview.md",
-    "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.2. Theory - Staying Organized.md",
     "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.1. Interactive - Getting Started With A Pentest Distro.md",
+    "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.2. Theory - Staying Organized.md",
+    "HackTheBox/01 - Getting Started/01.1 - Introduction/1.1.1. Theory - Infosec Overview.md",
+    "Blue Team.md",
     "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics",
-    "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.3. Theory - Connecting Using VPN.md",
     "HackTheBox/00 - Introduction/00.12. Post-Engagement.md",
     "HackTheBox/00 - Introduction/00.13. Preparing for Real-World Pentests.md",
     "HackTheBox/00 - Introduction/00.11. Proof-of-Concept (PoC).md",
@@ -217,10 +221,6 @@
     "HackTheBox/00. Getting Started.md",
     "HackTheBox/01 - Getting Started",
     "HackTheBox/00 - Introduction/00.7. Vulnerability Assessment.md",
-    "HackTheBox/00 - Introduction/00.10. Lateral Movement.md",
-    "HackTheBox/00 - Introduction/00.9. Post-Exploitation.md",
-    "HackTheBox/00.13. Preparing for Real-World Pentests.md",
-    "HackTheBox/00.12. Post-Engagement.md",
     "HackTheBox/00 - Introduction",
     "HackTheBox/00",
     "HackTheBox/-",
