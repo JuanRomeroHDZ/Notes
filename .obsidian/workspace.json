@@ -13,16 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/02 - Network Enumeration With Nmap/02.1 - Introduction/2.1.2. Theory - Introduction to Nmap.md",
+                "file": "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration/2.2.2. Interactive - Host and Port Scanning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2.1.2. Theory - Introduction to Nmap"
+              "title": "2.2.2. Interactive - Host and Port Scanning"
+            }
+          },
+          {
+            "id": "89cbf5ed3b666db0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,9 +198,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "65c9c93268c52b54",
+  "active": "72582984a4bf7805",
   "lastOpenFiles": [
+    "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration/2.2.2. Interactive - Host and Port Scanning.md",
+    "interactive_visual_im_371fc33741c4681c.html",
+    "HackTheBox/Images/Pasted image 20260918222212.png",
+    "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration/2.2.1. Interactive - Host Discovery.md",
     "HackTheBox/02 - Network Enumeration With Nmap/02.1 - Introduction/2.1.2. Theory - Introduction to Nmap.md",
+    "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration",
+    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
+    "Cisco enterprise Networking/04 - OSPF/Intervalos de Paquetes Hello.md",
+    "Cisco enterprise Networking/04 - OSPF/Estado Two-Way.md",
+    "HackTheBox/01 - Getting Started/01.5 - Attacking Your First Box/1.5.3. Interactive - Initial Foothold (Nibbles).md",
+    "HackTheBox/01 - Getting Started/01.4 - Getting Started With Hack The Box  (HTB)/1.4.1. Theory - Starting Out.md",
+    "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.3. Theory - Connecting Using VPN.md",
+    "HackTheBox/00 - Introduction/00.1. Academy Modules Layout.md",
+    "HackTheBox/00 - Introduction/00.0. Introduction To The Penetration Tester Path.md",
     "HackTheBox/Images/Pasted image 20260622102446.png",
     "HackTheBox/Knowledge/Cheat Sheets/RustScan.md",
     "HackTheBox/Resources/YouTube.md",
@@ -198,8 +222,6 @@
     "HackTheBox/Resources/Blogs.md",
     "HackTheBox/02 - Network Enumeration With Nmap/02.1 - Introduction/2.1.1. Theory - Enumeration.md",
     "HackTheBox/02 - Network Enumeration With Nmap/02.1 - Introduction/Untitled Diagram.svg",
-    "HackTheBox/00 - Introduction/00.1. Academy Modules Layout.md",
-    "HackTheBox/00 - Introduction/00.0. Introduction To The Penetration Tester Path.md",
     "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics/1.3.3. Interactive - Service Scanning.md",
     "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics/1.3.2. Interactive - Basic Tools.md",
     "HackTheBox/01 - Getting Started/01.3 - Pentesting Basics/1.3.1. Theory - Common Terms.md",
@@ -210,22 +232,12 @@
     "HackTheBox/02 - Network Enumeration With Nmap/Untitled.md",
     "HackTheBox/02 - Network Enumeration With Nmap/02.1 - Introduction",
     "HackTheBox/02 - Network Enumeration With Nmap",
-    "HackTheBox/01 - Getting Started/01.7 - What's Next?/1.7.2. Interactive - Knowledge Check.md",
-    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
-    "HackTheBox/Knowledge/Cheat Sheets/Netcat.md",
-    "HackTheBox/Knowledge/Cheat Sheets/cURL.md",
     "HackTheBox/01 - Getting Started/01.0",
-    "HackTheBox/4. Recursos.md",
     "HackTheBox/Resources",
     "HackTheBox/Machines",
     "HackTheBox/Knowledge/Techniques",
     "HackTheBox/Knowledge/Credentials",
     "HackTheBox/Knowledge/Shells & Payloads",
-    "HackTheBox/Knowledge/Web",
-    "HackTheBox/Knowledge/Enumeration",
-    "HackTheBox/05 - Resources/Blogs.md",
-    "HackTheBox/05 - Resources/Vulnerable Machines.md",
-    "HackTheBox/05 - Resources/Practice Platforms.md",
     "HackTheBox/Images/Pasted image 20260916203538.png",
     "HackTheBox/Images/Pasted image 20260916185021.png",
     "HackTheBox/Images/Pasted image 20260916201051.png",
@@ -233,7 +245,6 @@
     "HackTheBox/Images/Pasted image 20260916195937.png",
     "HackTheBox/Images/Pasted image 20260916195317.png",
     "HackTheBox/Images/Pasted image 20260916195243.png",
-    "HackTheBox/Images/Pasted image 20260916190433.png",
     "Untitled.canvas"
   ]
 }
