@@ -26,10 +26,15 @@
             "id": "89cbf5ed3b666db0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration/2.2.2. Interactive - Host and Port Scanning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2.2.2. Interactive - Host and Port Scanning"
             }
           }
         ],
@@ -198,7 +203,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "72582984a4bf7805",
+  "active": "89cbf5ed3b666db0",
   "lastOpenFiles": [
     "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration/2.2.2. Interactive - Host and Port Scanning.md",
     "interactive_visual_im_371fc33741c4681c.html",
