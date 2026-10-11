@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/02 - Network Enumeration With Nmap/03.1 - Bypass Security Measures/3.1.1. Theory - Firewall and IDS-IPS Evasion.md",
+                "file": "HackTheBox/02 - Network Enumeration With Nmap/03.1 - Bypass Security Measures/3.1.2. Interactive - Firewall and IDS-IPS Evasion - Easy Lab.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3.1.1. Theory - Firewall and IDS-IPS Evasion"
+              "title": "3.1.2. Interactive - Firewall and IDS-IPS Evasion - Easy Lab"
             }
           }
         ],
@@ -224,9 +224,12 @@
   },
   "active": "f21c6bfbb2dd7e86",
   "lastOpenFiles": [
+    "HackTheBox/Images/Pasted image 20261011160112.png",
+    "HackTheBox/02 - Network Enumeration With Nmap/03.1 - Bypass Security Measures/3.1.2. Interactive - Firewall and IDS-IPS Evasion - Easy Lab.md",
+    "HackTheBox/02 - Network Enumeration With Nmap/03.1 - Bypass Security Measures/3.1.1. Theory - Firewall and IDS-IPS Evasion.md",
+    "HackTheBox/Images/Pasted image 20261011160236.png",
     "HackTheBox/Knowledge/Cheat Sheets/Markdown.md",
     "HackTheBox/Images/interactive_visual_im_371fc33741c4681c.html",
-    "HackTheBox/02 - Network Enumeration With Nmap/03.1 - Bypass Security Measures/3.1.1. Theory - Firewall and IDS-IPS Evasion.md",
     "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration/2.2.6. Theory - Performance.md",
     "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration/2.2.5. Interactive - Nmap Scripting Engine.md",
     "HackTheBox/02 - Network Enumeration With Nmap/02.2 - Host Enumeration/2.2.4. Interactive - Service Enumeration.md",
@@ -259,8 +262,6 @@
     "HackTheBox/Images/Pasted image 20260927120608.png",
     "HackTheBox/Images/Pasted image 20260927120435.png",
     "HackTheBox/Images/Pasted image 20260927113314.png",
-    "HackTheBox/Images/Pasted image 20260927113137.png",
-    "HackTheBox/Images/Pasted image 20260927113110.png",
     "interactive_visual_im_371fc33741c4681c.html",
     "Cisco enterprise Networking/04 - OSPF/Intervalos de Paquetes Hello.md",
     "Cisco enterprise Networking/04 - OSPF/Estado Two-Way.md",
@@ -268,7 +269,6 @@
     "HackTheBox/01 - Getting Started/01.4 - Getting Started With Hack The Box  (HTB)/1.4.1. Theory - Starting Out.md",
     "HackTheBox/01 - Getting Started/01.2 - Setup/1.2.3. Theory - Connecting Using VPN.md",
     "HackTheBox/00 - Introduction/00.1. Academy Modules Layout.md",
-    "HackTheBox/00 - Introduction/00.0. Introduction To The Penetration Tester Path.md",
     "Untitled.canvas"
   ]
 }
