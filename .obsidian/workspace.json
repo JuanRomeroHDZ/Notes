@@ -116,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 357.5
   },
   "right": {
     "id": "0532028f76764542",
@@ -225,9 +224,11 @@
   },
   "active": "f21c6bfbb2dd7e86",
   "lastOpenFiles": [
+    "Pasted image 20261017000840.png",
+    "Indagar.md",
+    "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.2. Theory - Enumeration Methodology.md",
     "Pasted image 20261016191934.png",
     "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.1. Theory - Enumeration Principles.md",
-    "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.2. Theory - Enumeration Methodology.md",
     "Deudas.md",
     "HackTheBox/Images/Pasted image 20261011171629.png",
     "HackTheBox/02 - Network Enumeration With Nmap/03.1 - Bypass Security Measures/3.1.3. Interactive Firewall and IDS-IPS Evasion - Hard Lab.md",
@@ -261,7 +262,6 @@
     "0.pcap",
     "HackTheBox/Images/Pasted image 20261011194508.png",
     "HackTheBox/02 - Network Enumeration With Nmap/03.1 - Bypass Security Measures/3.1.1. Theory - Firewall and IDS-IPS Evasion.md",
-    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
     "HackTheBox/Images/Pasted image 20261011190004.png",
     "HackTheBox/Images/Pasted image 20261011185258.png",
     "HackTheBox/Images/Pasted image 20261011185133.png",
@@ -269,7 +269,6 @@
     "HackTheBox/Images/Pasted image 20261011184043.png",
     "HackTheBox/Images/Pasted image 20261011172709.png",
     "HackTheBox/Images/Pasted image 20261011171735.png",
-    "HackTheBox/Images/Pasted image 20261011160112.png",
     "HackTheBox/Images/interactive_visual_im_371fc33741c4681c.html",
     "Untitled.canvas"
   ]
