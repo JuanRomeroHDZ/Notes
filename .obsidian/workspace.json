@@ -47,13 +47,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.2. Theory - Enumeration Methodology.md",
+                "file": "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3.1.2. Theory - Enumeration Methodology"
+              "title": "3.3.1. Interactive - FTP"
+            }
+          },
+          {
+            "id": "88bea9d0b9259b4a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -116,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "0532028f76764542",
@@ -224,9 +235,15 @@
   },
   "active": "f21c6bfbb2dd7e86",
   "lastOpenFiles": [
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
+    "Pasted image 20261017171629.png",
+    "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.3. Theory - Staff.md",
+    "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.2. Theory - Cloud Resources.md",
+    "Pasted image 20261017150440.png",
+    "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.1. Theory - Domain Information.md",
+    "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.2. Theory - Enumeration Methodology.md",
     "Pasted image 20261017000840.png",
     "Indagar.md",
-    "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.2. Theory - Enumeration Methodology.md",
     "Pasted image 20261016191934.png",
     "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.1. Theory - Enumeration Principles.md",
     "Deudas.md",
@@ -249,11 +266,7 @@
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.3. Interactive - NFS.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.2. Interactive - SMB.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration",
-    "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.3. Theory - Staff.md",
-    "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.2. Theory - Cloud Resources.md",
-    "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.1. Theory - Domain Information.md",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration",
     "HackTheBox/03 - Footprinting/03.1 - Introduction",
     "HackTheBox/03 - Footprinting",
@@ -266,9 +279,6 @@
     "HackTheBox/Images/Pasted image 20261011185258.png",
     "HackTheBox/Images/Pasted image 20261011185133.png",
     "HackTheBox/Images/Pasted image 20261011184318.png",
-    "HackTheBox/Images/Pasted image 20261011184043.png",
-    "HackTheBox/Images/Pasted image 20261011172709.png",
-    "HackTheBox/Images/Pasted image 20261011171735.png",
     "HackTheBox/Images/interactive_visual_im_371fc33741c4681c.html",
     "Untitled.canvas"
   ]
