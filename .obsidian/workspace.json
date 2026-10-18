@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
+                "file": "HackTheBox/Knowledge/Cheat Sheets/FTP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3.3.1. Interactive - FTP"
+              "title": "FTP"
             }
           }
         ],
@@ -224,20 +224,20 @@
   },
   "active": "f21c6bfbb2dd7e86",
   "lastOpenFiles": [
+    "HackTheBox/Knowledge/Cheat Sheets/cURL.md",
+    "HackTheBox/Images/Pasted image 20261016191934.png",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
     "upload.sh",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.11. Interactive - IPMI.md",
     "HackTheBox/Knowledge/Cheat Sheets/FTP.md",
-    "HackTheBox/Knowledge/Cheat Sheets/cURL.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
-    "Pasted image 20261017171629.png",
+    "HackTheBox/Images/Pasted image 20261017171629.png",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.3. Theory - Staff.md",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.2. Theory - Cloud Resources.md",
-    "Pasted image 20261017150440.png",
+    "HackTheBox/Images/Pasted image 20261017150440.png",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.1. Theory - Domain Information.md",
     "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.2. Theory - Enumeration Methodology.md",
-    "Pasted image 20261017000840.png",
+    "HackTheBox/Images/Pasted image 20261017000840.png",
     "Indagar.md",
-    "Pasted image 20261016191934.png",
     "HackTheBox/03 - Footprinting/03.1 - Introduction/3.1.1. Theory - Enumeration Principles.md",
     "Deudas.md",
     "HackTheBox/Images/Pasted image 20261011171629.png",
@@ -269,7 +269,6 @@
     "HackTheBox/Images/Pasted image 20261011185258.png",
     "HackTheBox/Images/Pasted image 20261011185133.png",
     "HackTheBox/Images/Pasted image 20261011184318.png",
-    "HackTheBox/Images/interactive_visual_im_371fc33741c4681c.html",
     "Untitled.canvas"
   ]
 }
