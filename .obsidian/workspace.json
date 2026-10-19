@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/Knowledge/Cheat Sheets/FTP.md",
+                "file": "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.2. Interactive - SMB.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "FTP"
+              "title": "3.3.2. Interactive - SMB"
             }
           }
         ],
@@ -224,12 +224,17 @@
   },
   "active": "f21c6bfbb2dd7e86",
   "lastOpenFiles": [
+    "HackTheBox/Knowledge/Tools/02 - SMB.md",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.2. Interactive - SMB.md",
+    "HackTheBox/Knowledge/Tools/01 - FTP.md",
+    "HackTheBox/Resources/Vulnerable Machines.md",
+    "HackTheBox/Knowledge/Tools",
+    "HackTheBox/Knowledge/Cheat Sheets/FTP.md",
     "HackTheBox/Knowledge/Cheat Sheets/cURL.md",
     "HackTheBox/Images/Pasted image 20261016191934.png",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
     "upload.sh",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.11. Interactive - IPMI.md",
-    "HackTheBox/Knowledge/Cheat Sheets/FTP.md",
     "HackTheBox/Images/Pasted image 20261017171629.png",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.3. Theory - Staff.md",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration/3.2.2. Theory - Cloud Resources.md",
@@ -254,16 +259,12 @@
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.8. Interactive - MySQL.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.7. Interactive - SNMP.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.6. Interactive - IMAP - POP3.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.5. Interactive - SMTP.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.3. Interactive - NFS.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration",
     "HackTheBox/03 - Footprinting/03.1 - Introduction",
     "HackTheBox/03 - Footprinting",
     "user.txt",
     "-help",
-    "0.pcap",
     "HackTheBox/Images/Pasted image 20261011194508.png",
     "HackTheBox/Images/Pasted image 20261011190004.png",
     "HackTheBox/Images/Pasted image 20261011185258.png",
