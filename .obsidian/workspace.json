@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.2. Interactive - SMB.md",
+                "file": "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3.3.2. Interactive - SMB"
+              "title": "3.3.4. Interactive - DNS"
             }
           }
         ],
@@ -224,7 +224,18 @@
   },
   "active": "f21c6bfbb2dd7e86",
   "lastOpenFiles": [
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.6. Interactive - IMAP - POP3.md",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
+    "HackTheBox/Knowledge/Tools/03 - NFS.md",
     "HackTheBox/Knowledge/Tools/02 - SMB.md",
+    "HackTheBox/Knowledge/Cheat Sheets/NFS.md",
+    "HackTheBox/Knowledge/Cheat Sheets/Markdown.md",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.3. Interactive - NFS.md",
+    "Pasted image 20261019155257.png",
+    "Pasted image 20261019155121.png",
+    "Pasted image 20261019144950.png",
+    "Pasted image 20261019144904.png",
+    "Untitled.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.2. Interactive - SMB.md",
     "HackTheBox/Knowledge/Tools/01 - FTP.md",
     "HackTheBox/Resources/Vulnerable Machines.md",
@@ -251,14 +262,7 @@
     "HackTheBox/03 - Footprinting/03.5 - Skills Assessment/3.5.2. Interactive - Footprinting Lab - Medium.md",
     "HackTheBox/03 - Footprinting/03.5 - Skills Assessment/3.5.1. Interactive - Footprinting Lab - Easy.md",
     "HackTheBox/03 - Footprinting/03.5 - Skills Assessment",
-    "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols/3.4.2. Theory - Windows Remote Management Protocols.md",
-    "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols/3.4.1. Theory - Linux Remote Management Protocols.md",
     "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.10. Interactive - Oracle TNS.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.9. Interactive - MSSQL.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.8. Interactive - MySQL.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.7. Interactive - SNMP.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.6. Interactive - IMAP - POP3.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration",
     "HackTheBox/03 - Footprinting/03.1 - Introduction",
@@ -266,10 +270,6 @@
     "user.txt",
     "-help",
     "HackTheBox/Images/Pasted image 20261011194508.png",
-    "HackTheBox/Images/Pasted image 20261011190004.png",
-    "HackTheBox/Images/Pasted image 20261011185258.png",
-    "HackTheBox/Images/Pasted image 20261011185133.png",
-    "HackTheBox/Images/Pasted image 20261011184318.png",
     "Untitled.canvas"
   ]
 }
