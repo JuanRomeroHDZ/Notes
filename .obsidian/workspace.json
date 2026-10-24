@@ -116,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "0532028f76764542",
@@ -219,26 +220,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "f21c6bfbb2dd7e86",
   "lastOpenFiles": [
+    "Pasted image 20261024164814.png",
+    "Pasted image 20261024164723.png",
+    "Pasted image 20261024161645.png",
     "Pasted image 20261024130315.png",
     "Pasted image 20261024125946.png",
     "Pasted image 20261024125743.png",
+    "Untitled.md",
+    "HackTheBox/Images/Pasted image 20261019144904.png",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
     "HackTheBox/Images/Pasted image 20261024011844.png",
     "HackTheBox/Images/Pasted image 20261024002521.png",
     "HackTheBox/Images/Pasted image 20261023224137.png",
-    "HackTheBox/Images/Pasted image 20261023210610.png",
-    "HackTheBox/Images/Pasted image 20261023173332.png",
-    "HackTheBox/Images/Pasted image 20261019155257.png",
-    "HackTheBox/Images/Pasted image 20261019155121.png",
-    "HackTheBox/Images/Pasted image 20261019144950.png",
     "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
+    "HackTheBox/Images/Pasted image 20261023210610.png",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.3. Interactive - NFS.md",
-    "Untitled.md",
     "HackTheBox/Knowledge/Tools/03 - NFS.md",
     "HackTheBox/Knowledge/Cheat Sheets/NFS.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.2. Interactive - SMB.md",
