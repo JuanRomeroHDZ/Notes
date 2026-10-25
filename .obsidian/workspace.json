@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
+                "file": "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.5. Interactive - SMTP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3.3.4. Interactive - DNS"
+              "title": "3.3.5. Interactive - SMTP"
             }
           }
         ],
@@ -226,6 +226,8 @@
   },
   "active": "f21c6bfbb2dd7e86",
   "lastOpenFiles": [
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
+    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
     "Pasted image 20261024164814.png",
     "Pasted image 20261024164723.png",
     "Pasted image 20261024161645.png",
@@ -234,12 +236,9 @@
     "Pasted image 20261024125743.png",
     "Untitled.md",
     "HackTheBox/Images/Pasted image 20261019144904.png",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
     "HackTheBox/Images/Pasted image 20261024011844.png",
     "HackTheBox/Images/Pasted image 20261024002521.png",
     "HackTheBox/Images/Pasted image 20261023224137.png",
-    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
-    "HackTheBox/Images/Pasted image 20261023210610.png",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.3. Interactive - NFS.md",
     "HackTheBox/Knowledge/Tools/03 - NFS.md",
     "HackTheBox/Knowledge/Cheat Sheets/NFS.md",
