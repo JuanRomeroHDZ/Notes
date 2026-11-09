@@ -1,4 +1,6 @@
 [
   "drawio-obsidian",
-  "mermaid-tools"
+  "mermaid-tools",
+  "obsidian-excalidraw-plugin",
+  "highlightr-plugin"
 ]
