@@ -42,15 +42,18 @@
             }
           },
           {
-            "id": "f66a538c45a13f35",
+            "id": "42f317634ead77e8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "HackTheBox/Images/Pasted image 20261108162145.png"
+                "file": "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols/3.4.1. Theory - Linux Remote Management Protocols.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20261108162145"
+              "icon": "lucide-file",
+              "title": "3.4.1. Theory - Linux Remote Management Protocols"
             }
           }
         ],
@@ -113,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "0532028f76764542",
@@ -231,25 +235,26 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "72582984a4bf7805",
+  "active": "42f317634ead77e8",
   "lastOpenFiles": [
+    "Pasted image 20261108170247.png",
+    "Pasted image 20261108170106.png",
+    "HackTheBox/Knowledge/Cheat Sheets/Markdown.md",
+    "HackTheBox/Images/Pasted image 20261108162145.png",
     "HackTheBox/Images/Pasted image 20261108155538.png",
     "HackTheBox/Images/Pasted image 20261108142630.png",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.6. Interactive - IMAP - POP3.md",
     "HackTheBox/Images/Pasted image 20261026191923.png",
     "HackTheBox/Knowledge/Cheat Sheets/IMAP - POP3.md",
     "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols/3.4.1. Theory - Linux Remote Management Protocols.md",
-    "HackTheBox/Images/Pasted image 20261108162145.png",
     "HackTheBox/Images/Pasted image 20261108160050.png",
     "HackTheBox/Images/Pasted image 20261108155924.png",
     "HackTheBox/Images/Pasted image 20260721232059.png",
     "HackTheBox/Images/Pasted image 20260714184055.png",
     "HackTheBox/Images/Pasted image 20260627144837.png",
-    "HackTheBox/Images/Pasted image 20260622120721.png",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.11. Interactive - IPMI.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.2. Interactive - SMB.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.5. Interactive - SMTP.md",
-    "HackTheBox/Knowledge/Cheat Sheets/Markdown.md",
     "Excalidraw/Drawing 2026-11-06 21.36.41.excalidraw.md",
     "Excalidraw/Drawing 2026-11-06 21.35.47.excalidraw.md",
     "Excalidraw",
