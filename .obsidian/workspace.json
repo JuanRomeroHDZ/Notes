@@ -42,18 +42,18 @@
             }
           },
           {
-            "id": "42f317634ead77e8",
+            "id": "1a6341bd13abc92e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols/3.4.1. Theory - Linux Remote Management Protocols.md",
+                "file": "HackTheBox/04 - Information Gathering - Web Edition/04.1 - Introduction/4.1. Theory - Introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3.4.1. Theory - Linux Remote Management Protocols"
+              "title": "4.1. Theory - Introduction"
             }
           }
         ],
@@ -82,7 +82,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -210,8 +210,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           }
         ],
@@ -224,34 +224,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "42f317634ead77e8",
+  "active": "1a6341bd13abc92e",
   "lastOpenFiles": [
-    "Pasted image 20261108170247.png",
-    "Pasted image 20261108170106.png",
+    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
+    "HackTheBox/04 - Information Gathering - Web Edition/04.1 - Introduction/4.1. Theory - Introduction.md",
+    "Pasted image 20261113164012.png",
+    "HackTheBox/03 - Footprinting/03.5 - Skills Assessment/3.5.1. Interactive - Footprinting Lab - Easy.md",
+    "HackTheBox/04 - Information Gathering - Web Edition/04.1 - Introduction",
+    "HackTheBox/04 - Information Gathering - Web Edition/Introduction - Theory.md",
+    "HackTheBox/04 - Information Gathering - Web Edition",
+    "HackTheBox/03 - Footprinting/03.5 - Skills Assessment/3.5.3. Interactive - Footprinting Lab - Hard.md",
+    "HackTheBox/03 - Footprinting/03.5 - Skills Assessment/3.5.2. Interactive - Footprinting Lab - Medium.md",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.7. Interactive - SNMP.md",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.6. Interactive - IMAP - POP3.md",
     "HackTheBox/Knowledge/Cheat Sheets/Markdown.md",
+    "HackTheBox/Images/Pasted image 20261108170247.png",
+    "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols/3.4.1. Theory - Linux Remote Management Protocols.md",
+    "HackTheBox/Images/Pasted image 20261108170106.png",
     "HackTheBox/Images/Pasted image 20261108162145.png",
     "HackTheBox/Images/Pasted image 20261108155538.png",
     "HackTheBox/Images/Pasted image 20261108142630.png",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.6. Interactive - IMAP - POP3.md",
     "HackTheBox/Images/Pasted image 20261026191923.png",
     "HackTheBox/Knowledge/Cheat Sheets/IMAP - POP3.md",
-    "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols/3.4.1. Theory - Linux Remote Management Protocols.md",
     "HackTheBox/Images/Pasted image 20261108160050.png",
     "HackTheBox/Images/Pasted image 20261108155924.png",
     "HackTheBox/Images/Pasted image 20260721232059.png",
-    "HackTheBox/Images/Pasted image 20260714184055.png",
-    "HackTheBox/Images/Pasted image 20260627144837.png",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.11. Interactive - IPMI.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.2. Interactive - SMB.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.5. Interactive - SMTP.md",
@@ -261,28 +270,18 @@
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.10. Interactive - Oracle TNS.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.9. Interactive - MSSQL.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.8. Interactive - MySQL.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.7. Interactive - SNMP.md",
-    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
     "Untitled.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.3. Interactive - NFS.md",
     "HackTheBox/Knowledge/Tools/03 - NFS.md",
     "HackTheBox/Knowledge/Cheat Sheets/NFS.md",
-    "HackTheBox/Knowledge/Tools/02 - SMB.md",
-    "HackTheBox/Knowledge/Tools/01 - FTP.md",
-    "HackTheBox/Resources/Vulnerable Machines.md",
     "HackTheBox/Knowledge/Tools",
-    "HackTheBox/Knowledge/Cheat Sheets/FTP.md",
-    "HackTheBox/Knowledge/Cheat Sheets/cURL.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.1. Interactive - FTP.md",
     "upload.sh",
     "HackTheBox/03 - Footprinting/03.5 - Skills Assessment",
     "HackTheBox/03 - Footprinting/03.4 - Remote Management Protocols",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration",
     "HackTheBox/03 - Footprinting/03.2 - Infrastructure Based Enumeration",
     "HackTheBox/03 - Footprinting/03.1 - Introduction",
-    "HackTheBox/03 - Footprinting",
-    "user.txt",
     "Untitled.canvas"
   ]
 }
