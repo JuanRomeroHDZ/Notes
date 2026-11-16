@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/04 - Information Gathering - Web Edition/04.1 - Introduction/4.1. Theory - Introduction.md",
+                "file": "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.6. Interactive - IMAP - POP3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4.1. Theory - Introduction"
+              "title": "3.3.6. Interactive - IMAP - POP3"
             }
           }
         ],
@@ -116,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 357.5
   },
   "right": {
     "id": "0532028f76764542",
@@ -237,8 +236,9 @@
   },
   "active": "1a6341bd13abc92e",
   "lastOpenFiles": [
-    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
+    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.3. Interactive - NFS.md",
     "HackTheBox/04 - Information Gathering - Web Edition/04.1 - Introduction/4.1. Theory - Introduction.md",
+    "HackTheBox/Knowledge/Cheat Sheets/Nmap.md",
     "Pasted image 20261113164012.png",
     "HackTheBox/03 - Footprinting/03.5 - Skills Assessment/3.5.1. Interactive - Footprinting Lab - Easy.md",
     "HackTheBox/04 - Information Gathering - Web Edition/04.1 - Introduction",
@@ -272,7 +272,6 @@
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.8. Interactive - MySQL.md",
     "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.4. Interactive - DNS.md",
     "Untitled.md",
-    "HackTheBox/03 - Footprinting/03.3 - Host Based Enumeration/3.3.3. Interactive - NFS.md",
     "HackTheBox/Knowledge/Tools/03 - NFS.md",
     "HackTheBox/Knowledge/Cheat Sheets/NFS.md",
     "HackTheBox/Knowledge/Tools",
